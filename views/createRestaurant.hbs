@@ -1,0 +1,14 @@
+<form method="POST" action="/create">
+  <input type="text" name="name" placeholder="name">
+  <input type="text" name="description" placeholder="description">
+
+  <label>Address</label>
+  <input type="hidden" name="latitude" placeholder="latitude" >
+  <input type="hidden" name="longitude" placeholder="longitude">
+  <div style="color:green" class="locationStatus"></div>
+  <input type="submit" name="">
+  <div id="map" style="height:400px"></div>
+</form>
+
+
+<script src="/javascripts/create.js"></script>
